@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Personal Portfolio</title>
+   <link rel="icon" type="image/x-icon/avif" href="fav.png" >
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/dfee966ab6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+      <div class="pavan">
+         
+         <nav>
+            <img id="logo" src="Screenshots/Screenshot 2024-08-13 082718.png">
+            <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#hobbies">Hobbies</a></li>
+               <li><a href="#contact">contact</a></li>
+               <i class="fas fa-times"onclick="closemenu()"></i>
+            </ul>
+            
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div  class="header-text"> </div>
+         <p style="text-align:left;margin-left:3%;margin-top: 32%;font-style: italic; font-size: large;"> frontend Developer</p>
+         <p id="intro" ><strong>Hi , I'm <span style="color: red;">Tulasi mani Akkireddy</span> from Vizag, India </strong></p>
+      </div>
+   <!-------------------------about-------------->
+   </div>
+   <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+               <img src="cropped-blue.jpeg" height="600px" width="80px" class="img2">
+            </div>
+            <div class="about-col-2">
+               <h2 class="sub-title" style="margin-left: 0%;"><i>About Me</i></h2> <br/>
+               <p  style="color: #d1d1cb;" >My name is Tulasi mani, An Enthusiastic and a hardworking fresher, wants to learn and work in the challenging environment where I can showcase my skills and get adapted to the new challenges. 
+               </p> <br/>
+               <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('strength')">Strengths</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+                  <p class="tab-links" onclick="opentab('workshops')">Workshops</p>
+                  <p class="tab-links" onclick="opentab('certification')">Certifications</p>
+                  <p class="tab-links" onclick="opentab('languages')">Languages</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+               <ul>
+                  <li><span>Scripting languages</span><br>Good knowledge on HTML,CSS,JS and React</li>
+                  <li><span>Programming languages</span><br>Basic knowledge on Python,Java and DBMS </li>
+                  <li><span> Game Engines </span><br>GoDot Script </li>
+                  
+               </ul>
+            </div>
+            <div class="tab-contents" id="strength">
+               <ul >
+                  <li style="list-style-type:circle;">Hard working person</li>
+                  <li style="list-style-type:circle;">Has a strong ability to get adapted to workpalce</li>
+                  <li style="list-style-type:circle;">Good at Communication</li>
+                  <li style="list-style-type:circle;">Ability to learn new technologies with minimal time period </li>
+               </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+               <ul >
+                  <li style="list-style-type:disc;">Worked as an Online intern in</span><span style="color: rgb(255, 196, 0);" > IStudio </span>as a frontend-developer<br> </li>
+                  <li style="list-style-type:disc;">Worked as an Offline intern in </span><span style="color: rgb(255, 196, 0);" >Symbiosis </span> company,Vizag as a frontend-developer<br> </li>
+                  </ul>
+            </div>
+            <div class="tab-contents" id="education">
+               <ul>
+                  <li><span>2025-pursuing</span><br>Cyber Security(computer science),Raghu Engineering college ,Vizianagaram, CGPA-8.56 (currently)</li>
+                  <li><span>2021</span><br>State Board of Intermediate Education,Sri Chaitanya junior college,NAD,Vizag ,percent- 87% </li>
+                  <li><span>2019</span><br> State Board of Secondary Education,Dr.K.K.R's Gowtham school,Chinnamushidiwada,CGPA-9.3</li>
+               </ul>
+            </div>  
+            <div class="tab-contents" id="workshops">
+               <ul>
+                  <li style="list-style-type:disc;">Participated in workshop related to Web Designing in JNTU - GV</li>
+                  <li style="list-style-type:disc;">Participated in workshop related to Front-end in ANITS – Thagarapuvalasa</li>
+                  
+               </ul>
+            </div>
+            <div class="tab-contents" id="certification">
+               <ul>
+                  <li style="list-style-type:circle;">Edx certification in HTML, CSS and JS</li>
+                  <li style="list-style-type:circle;">NPTEL certification in DBMS</li>
+                  
+               </ul>
+            </div>
+            <div class="tab-contents" id="languages">
+               <ul >
+                  <li style="list-style-type:disc;"><span style="color: rgb(255, 196, 0);" > Telugu </span></li>
+                  <li style="list-style-type:disc;"><span style="color: rgb(255, 196, 0);" >English </span></li>
+                  <li style="list-style-type:disc;"> <span style="color: rgb(255, 196, 0);" >Malayalam </span> </li>
+                  <li style="list-style-type:disc;"><span style="color: rgb(255, 196, 0);" >American Sign language (ASL) </span></li>
+                  <li style="list-style-type:disc;"><span style="color: rgb(255, 196, 0);" >Braille </span></li>
+                  </ul>
+            </div>
+            
+
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <!------------------------------projects------------------------------------>
+   <div id="Projects">
+   <div class="container1">
+      <h1 class="sub-title"><i>My Projects</i></h1> 
+      <div class="Myprojects-list">
+         <div>
+            <i class="fa fa-film"></i>
+            <h2 style="color: rgb(255, 187, 0);"> NetFlix Clone</h2>
+            <p>I have created a NetFlix Clone just by using HTML5, CSS and React framework that gives a responsive output.
+            </p>
+            <a href="#">learn more</a>
+         </div>
+         <div>
+            <i class="fa fa-shopping-cart"></i>
+            <h2 style="color: violet;"> E-commerce Website</h2>
+            <p> I have developed an E-commerce website (online-shopping) using HTML5, CSS and JS. This is my first project that I have worked on.
+            </p>
+            <a href="#">learn more</a>
+         </div>
+         <div>
+            <i class="fa fa-gamepad"></i>
+            <h2 style="color: rgb(166, 255, 0);"> 2D Game</h2>
+            <p> I have generated a 2D Game using a GoDot Game Engine. It consists of 2 levels and very interactive to play. </p>
+            <a href="#">learn more</a>
+         </div>
+         <div>
+            <i class="fa fa-commenting"></i>
+            <h2 style="color: aqua;">Make your own app</h2>
+            <p>I have developed a dynamic Messanger app using HTML5, CSS and JS.
+            </p>
+            <a href="#">learn more</a>
+         </div>
+      </div>
+     </div>
+      </div>
+   </div>
+     <!----------------------------------------Hobbies------------------->
+<div id="hobbies">
+   <div class="container"> <br/>
+      <h1 class="sub-title"><i>My Hobbies</i></h1>
+      <div class="hobby-list">
+         <div class="hobby">
+            <img src="sing.webp" height="400px" width="300px">
+            <div class="layer">
+               <h3 style="color: greenyellow;">Singing</h3>
+               <p> Music is a therapy and there by singing and vibing with our favourite songs gives releif from mental pressures.
+               </p>
+               <a href="#"><i class="fa fa-music"></i> </a>
+            </div>
+         </div> 
+         <div class="hobby">
+            <img src="art.jpg" height="400px" width="300px">
+            <div class="layer">
+               <h3 style="color: rgb(212, 255, 0);"> Art </h3>
+               <p> Drawing different arts like vision confusion arts and human arts kills my free time.
+               </p><a href="#"><i class="fa fa-paint-brush"></i>
+               </a>
+            </div>
+         </div>
+          <div class="hobby">
+            <img src="movie.jpeg" height="400px" width="300px">
+            <div class="layer">
+               <h3 style="color: yellow;"> Movies</h3>
+               <p>Watching movies is not a bad thing when we are free right! Horror and Thriller movies are my favourite .
+               </p> <a href="#"><i class="fa fa-video-camera"></i></a>
+
+            </div>
+         </div>
+      </div>
+   </div> 
+</div>
+<!-----------------------------------------contact-------------------------------------->
+<div id="contact">
+   <div class="sai">
+      <div class="row">
+         <div class="contact-left">
+            <h2 class="sub-title"><i> Contact me </i></h2> <br>
+            <p><i class="fa-solid fa-paper-plane"></i>
+               tulasimani2003@gmail.com</p><br>
+            <p><i class="fa-solid fa-phone"></i>+91 9398995157</p>
+            <div class="ICONS">
+               <a href="https://www.facebook.com/profile.php?id=61561446320336"><i style="color: blue;" class="fa-brands fa-facebook"></i></a>
+                  <a href="https://github.com/Tulasimani1426"> <i style="color: rgb(100, 98, 98);"class="fa-brands fa-github"></i></a>
+                     <a href="https://www.instagram.com/____dis____trust____?igsh=bHNyN2F0cjBuc2Z5"><i style="color: rgb(238, 101, 155);" class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/tulasi-mani-1a7b81277/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BtmWVogRFR8We%2FiluWL5uHg%3D%3D"><i style="color: skyblue ;" class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="21981A4603_Tulasimani.docx" download class="guna guna2" ; style="color: rgb(214, 210, 210); text-decoration: none;">Download CV</a>
+         </div>
+      
+         <div class="contact-right">
+            <form action="mailto:tulasimani2003@gmail.com" method="POST"> 
+               <input type="text" name="name" placeholder="Your name" required>
+               <input type="email" name="email" placeholder="Your email "required>
+               <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+              <center><button type="submit" class="guna guna2"  style="color: rgb(214, 210, 210); ">Submit</button> </center>
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
+   <script src="index.js"></script>
+</body>
+</html>
